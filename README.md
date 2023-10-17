@@ -1,5 +1,5 @@
 # RouterOS-Aliyun-DDNS
-RounterOS 上通过脚本更新阿里云DDNS
+RouterOS 上通过脚本更新阿里云DDNS
 
 - 在阿里云函数FC上部署服务端程序，用于更新DNS。创建FC实例，请求处理程序类型：HTTP请求，然后选择hello world作为模版，并把aliyun-ddns.js代码粘贴进去，部署好。
 先通过mock数据调试好接口。
